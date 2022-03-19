@@ -36,7 +36,5 @@ public struct BarView: View {
                 }
             }
         }
-        .background(Color(UIColor.systemBackground))
-        .frame(height: 86)
     }
 }
