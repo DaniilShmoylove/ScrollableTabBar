@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8960F88A27E4F84F0072B3FF /* BarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960F88927E4F84F0072B3FF /* BarItemView.swift */; };
+		8960F88C27E4F8F70072B3FF /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960F88B27E4F8F70072B3FF /* BarView.swift */; };
 		89DE03A727E4E90B0082E953 /* ScrollableTabBar.docc in Sources */ = {isa = PBXBuildFile; fileRef = 89DE03A627E4E90B0082E953 /* ScrollableTabBar.docc */; };
 		89DE03A827E4E90B0082E953 /* ScrollableTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 89DE03A527E4E90B0082E953 /* ScrollableTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89DE03B127E4E9730082E953 /*  ScrollableTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DE03B027E4E9730082E953 /*  ScrollableTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8960F88927E4F84F0072B3FF /* BarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarItemView.swift; sourceTree = "<group>"; };
+		8960F88B27E4F8F70072B3FF /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
 		89DE03A227E4E90B0082E953 /* ScrollableTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScrollableTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DE03A527E4E90B0082E953 /* ScrollableTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollableTabBar.h; sourceTree = "<group>"; };
 		89DE03A627E4E90B0082E953 /* ScrollableTabBar.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ScrollableTabBar.docc; sourceTree = "<group>"; };
+		89DE03B027E4E9730082E953 /*  ScrollableTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ScrollableTabBarView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +55,9 @@
 			children = (
 				89DE03A527E4E90B0082E953 /* ScrollableTabBar.h */,
 				89DE03A627E4E90B0082E953 /* ScrollableTabBar.docc */,
+				89DE03B027E4E9730082E953 /*  ScrollableTabBarView.swift */,
+				8960F88B27E4F8F70072B3FF /* BarView.swift */,
+				8960F88927E4F84F0072B3FF /* BarItemView.swift */,
 			);
 			path = ScrollableTabBar;
 			sourceTree = "<group>";
@@ -132,6 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8960F88C27E4F8F70072B3FF /* BarView.swift in Sources */,
+				8960F88A27E4F84F0072B3FF /* BarItemView.swift in Sources */,
+				89DE03B127E4E9730082E953 /*  ScrollableTabBarView.swift in Sources */,
 				89DE03A727E4E90B0082E953 /* ScrollableTabBar.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
